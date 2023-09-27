@@ -1,0 +1,53 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos del contenedor de la página */
+  .login-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+  }
+  
+  /* Estilos del contenedor del formulario */
+  .form {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: white;
+  }
+  
+  /* Estilos del título */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Estilos de los campos de texto */
+  input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+  }
+  
+  /* Estilos del botón de enviar */
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #0072ff;
+    color: white;
+  }
+  
+  /* Estilos del mensaje */
+  p {
+    text-align: center;
+  }
+  
